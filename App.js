@@ -8,6 +8,8 @@ const subCategoryRoutes = require('./Routes/subcategory.router')
 const productRoutes = require('./Routes/product.router')
 const path = require("path");
 
+
+
 app.use(express.json());
 require('dotenv').config()
 app.use(cors());
